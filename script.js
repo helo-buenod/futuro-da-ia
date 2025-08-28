@@ -7,19 +7,17 @@ const perguntas = [
 {
 enunciado: " onde a IA pode crescer muito no futuro?",
 alternativas: [
-"a) pintura"
+"a) pintura",
 "b) agricultura"
 ]
 },
 { 
     enunciado:"como garantir o uso seguro da IA?",
     alternativas: [
-"a) sem regras"
+"a) sem regras",
 "b) ética e leis"
 
     ]
 },
 {
-
     
-
