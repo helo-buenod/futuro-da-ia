@@ -40,5 +40,20 @@ alternativas: [
     "b) diagnostico cedo"
 ]
 },
+];
+
+let atual= 0;
+let perguntaAtual;
+
+function mostraAlternativa() {
+    for ( const alternativa of perguntaAtual.alternativas) {
+     const botaoAlternativas = document.createElement("button");
+     botaoAlternativas.textContent = alternativa;
+     caixaAlternativa.appendChild(botaoAlternativas);
+    }
+}
+
+mostraPergunta();
+
 
 
