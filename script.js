@@ -20,4 +20,25 @@ alternativas: [
     ]
 },
 {
-    
+    enunciado: "o que a IA fara com os empregos", 
+    alternativas: [ 
+        "a) acabar com todos",
+         "b) auromatizar e criar novos"
+    ]
+},
+  {
+    enunciado:"qual o maior risco da IA?",
+    alternativas:[
+        "a) acabar com todos",
+   "b) auromatizar e criar novos"
+    ]
+},
+{
+    enunciado: "como  a IA ajuda na saúde?",
+    alternativas: [
+    "a) substituir médicos",
+    "b) diagnostico cedo"
+]
+},
+
+
