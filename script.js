@@ -44,6 +44,7 @@ alternativas: [
 
 let atual= 0;
 let perguntaAtual;
+let historiaFinal ="";
 
 function mostraPergunta () {
     perguntaAtual = perguntas [atual];
@@ -57,8 +58,20 @@ function mostraAlternativa() {
      caixaAlternativa.appendChild(botaoAlternativas);
     }
 }
+function respostaSelecionada(opcaoSelecionada) {
+    const afirmacoes = opcaoSelecionada.afirmacao;
+    historiafinal += afirmacoes + "";
+    atual++;
+mostraPergunta(); 
+}
 
-mostraPergunta();
+function mostraResultado () {
+    caixaPerguntas.textContent = "Em 2049...";
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = "";
+}
+
+
 
 
 
